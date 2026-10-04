@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 
 model = load_model("best_mobilenetv2.keras")
 
-st.title("🍎 Fruit Freshness Detection")
+st.title("Fruit Freshness Detection")
 
 st.write("Upload gambar buah untuk mengetahui apakah buah Fresh atau Stale.")
 
