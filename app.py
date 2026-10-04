@@ -5,7 +5,6 @@ from tensorflow.keras.models import load_model
 
 st.set_page_config(
     page_title="Fruit Freshness Detection",
-    page_icon="🍎",
     layout="centered"
 )
 
@@ -51,7 +50,7 @@ st.markdown(
 )
 
 st.markdown(
-    '<div class="main-title">🍎 Fruit Freshness Detection</div>',
+    '<div class="main-title">Fruit Freshness Detection</div>',
     unsafe_allow_html=True
 )
 
@@ -104,7 +103,7 @@ if uploaded_file is not None:
 
     if result == "Fresh":
 
-        st.success("🍎 FRESH")
+        st.success("FRESH")
 
         st.metric(
             label="Confidence",
@@ -113,7 +112,7 @@ if uploaded_file is not None:
 
     else:
 
-        st.error("🥀 STALE")
+        st.error("STALE")
 
         st.metric(
             label="Confidence",
