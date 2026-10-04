@@ -55,7 +55,7 @@ st.markdown(
 )
 
 st.markdown(
-    '<div class="subtitle">Fruit Freshness and Stale aclassification</div>',
+    '<div class="subtitle">Fruit Freshness And Stale Classification</div>',
     unsafe_allow_html=True
 )
 
