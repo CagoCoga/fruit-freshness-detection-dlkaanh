@@ -55,7 +55,7 @@ st.markdown(
 )
 
 st.markdown(
-    '<div class="subtitle">AI-powered fruit freshness classification</div>',
+    '<div class="subtitle">Fruit Freshness and Stale aclassification</div>',
     unsafe_allow_html=True
 )
 
