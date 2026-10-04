@@ -72,7 +72,7 @@ if uploaded_file is not None:
 
     img = Image.open(uploaded_file).convert("RGB")
 
-    st.markdown("### 🖼️ Image Preview")
+    st.markdown("### Image Preview")
 
     st.image(
         img,
@@ -99,7 +99,7 @@ if uploaded_file is not None:
         result = "Fresh"
         confidence = (1 - prediction) * 100
 
-    st.markdown("### 📊 Prediction Result")
+    st.markdown("### Prediction Result")
 
     if result == "Fresh":
 
